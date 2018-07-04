@@ -6,6 +6,8 @@ import About from './views/About.vue';
 Vue.use(Router);
 
 export default new Router({
+  //https://router.vuejs.org/guide/essentials/history-mode.html#example-server-configurations
+  mode: 'history',
   routes: [
     {
       path: '/',
